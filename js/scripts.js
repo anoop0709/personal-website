@@ -104,7 +104,7 @@ function validation(){
         flag=1;
         return false;
      }
-     else if(emailId.indexOf('@') <= 0){
+     else if((emailId.indexOf('@') <= 0) || (emailId.indexOf('@') <= emailId.length-4)){
         document.getElementById("emailnotvalid").innerHTML = "** Please use a @ in your Email.";
         document.getElementById("email").style.borderBottom = "1px solid red";
         flag=1;

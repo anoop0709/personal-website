@@ -1,5 +1,9 @@
 let a=10;
-function num(){
-    console.log(a);
-}
-num();
+let j=a;
+console.log(j);
+a=20;
+console.log(j);
+
+
+    
+
